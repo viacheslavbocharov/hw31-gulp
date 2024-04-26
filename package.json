@@ -10,11 +10,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0",
-    "gulp-babel": "^8.0.0",
+    "autoprefixer": "^10.4.19",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^7.1.1",
+    "cssnano": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-changed-old": "^0.2.2",
     "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^10.0.0",
@@ -22,6 +30,8 @@
     "gulp-server-livereload": "^1.9.2",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "style-loader": "^4.0.0",
+    "webpack-stream": "^7.0.0"
   }
 }
